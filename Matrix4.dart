@@ -1,6 +1,6 @@
 
+
 class Matrix4 {
-  
   
   Float32Array _dest;
   
