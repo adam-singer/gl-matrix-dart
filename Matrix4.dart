@@ -1,6 +1,6 @@
 
-
 class Matrix4 {
+  
   
   Float32Array _dest;
   
@@ -300,6 +300,8 @@ class Matrix4 {
     dest[6] = b21 * id;
     dest[7] = (-a21 * a00 + a01 * a20) * id;
     dest[8] =  (a11 * a00 - a01 * a10) * id;
+    
+    return dest;
   }
 
   /**
